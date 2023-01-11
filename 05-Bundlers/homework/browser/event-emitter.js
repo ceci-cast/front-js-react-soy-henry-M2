@@ -1,11 +1,4 @@
-(function () {
 
-  window.EventEmitter = EventEmitter;
-
-  // our EventEmitter constructor function
-  function EventEmitter () {
-    this.subscribers = {};
-  }
 
   // To be used like:
   // instanceOfEE.on('touchdown', cheerFn);
@@ -43,4 +36,4 @@
 
   };
 
-})();
+
